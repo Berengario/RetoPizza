@@ -1,0 +1,6 @@
+{"_id":{"$oid":"5c3d934793233ad08d19caf5"},"Nombre":"Coca-cola","Venta":[{"Formato":"Lata","Precio":"2.2"}],"Alcohol":"0"}
+{"_id":{"$oid":"5c3d934793233ad08d19caf8"},"Nombre":"Sidra zapiain","Venta":[{"Formato":"Botella","Precio":"3.5"},{"Formato":"Vaso","Precio":"1"}],"Alcohol":"6"}
+{"_id":{"$oid":"5c3d934793233ad08d19caf7"},"Nombre":"Agua","Venta":[{"Formato":"Botella grande","Precio":"1.2"},{"Formato":"Botellin","Precio":"0.5"}],"Alcohol":"0"}
+{"_id":{"$oid":"5c3d934793233ad08d19caf3"},"Nombre":"Cerveza Salve","Venta":[{"Formato":"Zurito","Precio":"1.2"},{"Formato":"Caña","Precio":"2"}],"Alcohol":"5"}
+{"_id":{"$oid":"5c3d934793233ad08d19caf6"},"Nombre":"Kas","Venta":[{"Formato":"Lata","Precio":"2.2"}],"Alcohol":"0"}
+{"_id":{"$oid":"5c3d934793233ad08d19caf4"},"Nombre":"Cerveza Voll Damm","Venta":[{"Formato":"Quinto","Precio":"2"},{"Formato":"Tercio","Precio":"2.7"}],"Alcohol":"7.2"}

@@ -1,0 +1,68 @@
+﻿@model IEnumerable<ProyectoPizzas.Models.Pizza>
+@{
+    ViewData["Title"] = "Home Page";
+}
+<div class="cabecera-img">
+    <h1>SOMOS EL PIZZA HUT</h1>
+</div>
+
+<h2 class="subtitulo">
+    Etorri eta dastatu gure pizza bikainenak!!
+</h2>
+
+<table class="tabla">
+    <tr>
+        <th class="dato">
+            nombre
+        </th>
+        <th>
+            precio
+        </th>
+        <th>
+            ingredientes
+        </th>
+        <th>
+            alergenos
+        </th>
+        <th>
+            img
+        </th>
+    </tr>
+
+    
+
+    @foreach (var item in Model)
+    {
+        <tr>
+            <td>
+                @item.nombre
+            </td>
+            <td>
+                <ul class="dato">
+                    @foreach (var precio in item.precio)
+                    {
+                        <li>@precio€</li>
+                    }
+                </ul>
+            </td>
+            <td>
+                <ul class="lista-sin-cosas">
+                    @foreach (var ingrediente in item.ingredientes)
+                    {
+                        <li class="lista-sin-cosas">@ingrediente</li>
+                    }
+                </ul>
+            </td>
+            <td>
+                @item.alergenos
+
+            </td>
+            <td>
+                <img class="img-pizza" src="@item.img" />
+            </td>
+            <td>
+                <a asp-action="Delete" asp-route-id="@item.id">Delete</a>
+            </td>
+        </tr>
+    }
+</table>

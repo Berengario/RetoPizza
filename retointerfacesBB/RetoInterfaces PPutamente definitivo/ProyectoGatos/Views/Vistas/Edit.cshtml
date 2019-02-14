@@ -1,0 +1,74 @@
+﻿@model ProyectoPizzas.Models.Pizza
+
+@{
+    ViewData["Title"] = "Edit";
+}
+
+<h2>Edit</h2>
+
+<h4>Ardoa</h4>
+<hr />
+<div class="row">
+    <div class="col-md-4">
+        <!--<form asp-action="Edit">
+        <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+        <input type="hidden" asp-for="Id" />
+        <div class="form-group">
+            <label asp-for="Izena" class="control-label"></label>
+            <input asp-for="Izena" class="form-control" />
+            <span asp-validation-for="Izena" class="text-danger"></span>
+        </div>
+        <div class="form-group">
+            <label asp-for="Salneurria" class="control-label"></label>
+            <input asp-for="Salneurria" class="form-control" />
+            <span asp-validation-for="Salneurria" class="text-danger"></span>
+        </div>
+        <div class="form-group">
+            <label asp-for="Alkohola" class="control-label"></label>
+            <input asp-for="Alkohola" class="form-control" />
+            <span asp-validation-for="Alkohola" class="text-danger"></span>
+        </div>
+        <div class="form-group">
+            <label asp-for="Edukia" class="control-label"></label>
+            <input asp-for="Edukia" class="form-control" />
+            <span asp-validation-for="Edukia" class="text-danger"></span>
+        </div>
+        <div class="form-group">
+            <label asp-for="Urtea" class="control-label"></label>
+            <input asp-for="Urtea" class="form-control" />
+            <span asp-validation-for="Urtea" class="text-danger"></span>
+        </div>
+        <div class="form-group">
+            <label asp-for="Irudia" class="control-label"></label>
+            <input asp-for="Irudia" class="form-control" />
+            <span asp-validation-for="Irudia" class="text-danger"></span>
+        </div>
+        <div class="form-group">
+            <label asp-for="Deskribapena" class="control-label"></label>
+            <textarea asp-for="Deskribapena" class="form-control"></textarea>
+            <span asp-validation-for="Deskribapena" class="text-danger"></span>
+        </div>
+        <div class="form-group">
+            <label asp-for="UpeltegiaId" class="control-label"></label>
+            <select asp-for="UpeltegiaId" class="form-control" asp-items="ViewBag.UpeltegiaId"></select>
+            <span asp-validation-for="UpeltegiaId" class="text-danger"></span>
+        </div>
+        <div class="form-group">
+            <label asp-for="MotaId" class="control-label"></label>
+            <select asp-for="MotaId" class="form-control" asp-items="ViewBag.MotaId"></select>
+            <span asp-validation-for="MotaId" class="text-danger"></span>
+        </div>
+        <div class="form-group">
+            <input type="submit" value="Save" class="btn btn-default" />
+        </div>
+    </form>-->
+    </div>
+</div>
+
+<div>
+    <a asp-action="Index">Back to List</a>
+</div>
+
+@section Scripts {
+    @{await Html.RenderPartialAsync("_ValidationScriptsPartial");}
+}

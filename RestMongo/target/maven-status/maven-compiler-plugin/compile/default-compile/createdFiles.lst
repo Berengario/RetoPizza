@@ -1,0 +1,4 @@
+RestMongo\Application.class
+RestMongo\PizzaRepository.class
+RestMongo\Pizza.class
+RestMongo\Controller.class

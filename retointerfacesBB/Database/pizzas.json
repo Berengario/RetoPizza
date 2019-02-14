@@ -1,0 +1,6 @@
+{"_id":{"$oid":"5c3d90a193233ad08d19caed"},"Nombre":"4 Quesos","Precio":["7","8.5","10.5"],"Ingredientes":["Base de tomate","Mozzarela","Parmesano","Cabrales","Queso de cabra"],"Alergenos":"Lactosa","Img":"~/images/pizzas/4quesos.jpg"}
+{"_id":{"$oid":"5c3d90a193233ad08d19caef"},"Nombre":"Jamon y queso","Precio":["7","8","10"],"Ingredientes":["Base de tomate","Mozzarela","Queso"],"Alergenos":"Lactosa","Img":"~/images/pizzas/jamonqueso.jpg"}
+{"_id":{"$oid":"5c3d90a193233ad08d19caf0"},"Nombre":"Romana","Precio":["7","8","10"],"Ingredientes":["Base de tomate","Mozzarela","Pimientos rojos","Champiñones","Cebolla"],"Alergenos":"Lactosa","Img":"~/images/pizzas/romana.jpg"}
+{"_id":{"$oid":"5c3d90a193233ad08d19caee"},"Nombre":"Margarita","Precio":["6","7.5","9.5"],"Ingredientes":["Base de tomate","Mozzarela","Oregano"],"Alergenos":"Lactosa","Img":"~/images/pizzas/margarita.jpg"}
+{"_id":{"$oid":"5c3d90a193233ad08d19caf1"},"Nombre":"Pepperoni","Precio":["7","8","10"],"Ingredientes":["Base de tomate","Mozzarela","Salami"],"Alergenos":"Lactosa","Img":"~/images/pizzas/pepperoni.jpg"}
+{"_id":{"$oid":"5c3d90a193233ad08d19caf2"},"Nombre":"Carbonara","Precio":["7","8.5","10.5"],"Ingredientes":["Nata","Mozzarela","Champiñones","Jamon"],"Alergenos":"Lactosa","Img":"~/images/pizzas/carbonara.png"}
